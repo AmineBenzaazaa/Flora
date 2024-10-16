@@ -2,22 +2,18 @@ const Stack = createNativeStackNavigator();
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { useFonts } from "expo-font";
-import ReminderAddplant from "./screens/ReminderAddplant";
-import OnboardingScreen1 from "./screens/OnboardingScreen1";
-import OnboardingScreen2 from "./screens/OnboardingScreen2";
-import WelcomeScreen from "./screens/WelcomeScreen";
-import OnboardingScreen from "./screens/OnboardingScreen";
-import TaskWildmintCare from "./screens/TaskWildmintCare";
-import ChangeScheduleeditOnState from "./screens/ChangeScheduleeditOnState";
-import ReminderChanfeSchedule from "./screens/ReminderChanfeSchedule";
-import ChangeScheduleeditState from "./screens/ChangeScheduleeditState";
-import TaskWildmintInfo from "./screens/TaskWildmintInfo";
-import ReminderTaskAll from "./screens/ReminderTaskAll";
-import ReminderTaskWater from "./screens/ReminderTaskWater";
-import ChangeScheduleedit1One from "./screens/ChangeScheduleedit1One";
-import ReminderTaskFertilizer from "./screens/ReminderTaskFertilizer";
-import ReminderChanfeSchedule1 from "./screens/ReminderChanfeSchedule1";
-import ExplorePlants from "./screens/ExplorePlants";
+import Notification1 from "./screens/Notification1";
+import PlantDetails from "./screens/PlantDetails";
+import CareGuide from "./screens/CareGuide";
+import Snaptip from "./screens/Snaptip";
+import Camera from "./screens/Camera";
+import Snaptip1 from "./screens/Snaptip1";
+import Snaptip2 from "./screens/Snaptip2";
+import MyPlantsaddedReminder1 from "./screens/MyPlantsaddedReminder1";
+import MyPlantsaddedReminder from "./screens/MyPlantsaddedReminder";
+import MyPlantsaddedReminder3 from "./screens/MyPlantsaddedReminder3";
+import MyPlantsaddedReminder2 from "./screens/MyPlantsaddedReminder2";
+import MyPlantsaddReminder from "./screens/MyPlantsaddReminder";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -31,7 +27,6 @@ const App = () => {
     "Inter-SemiBold": require("./assets/fonts/Inter-SemiBold.ttf"),
     "Roboto-Regular": require("./assets/fonts/Roboto-Regular.ttf"),
     "Roboto-Medium": require("./assets/fonts/Roboto-Medium.ttf"),
-    "Roboto-Bold": require("./assets/fonts/Roboto-Bold.ttf"),
   });
 
   if (!fontsLoaded && !error) {
@@ -44,83 +39,63 @@ const App = () => {
         {hideSplashScreen ? (
           <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen
-              name="ReminderAddplant"
-              component={ReminderAddplant}
+              name="Notification1"
+              component={Notification1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="OnboardingScreen1"
-              component={OnboardingScreen1}
+              name="PlantDetails"
+              component={PlantDetails}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="OnboardingScreen2"
-              component={OnboardingScreen2}
+              name="CareGuide"
+              component={CareGuide}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="WelcomeScreen"
-              component={WelcomeScreen}
+              name="Snaptip"
+              component={Snaptip}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="OnboardingScreen"
-              component={OnboardingScreen}
+              name="Camera"
+              component={Camera}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TaskWildmintCare"
-              component={TaskWildmintCare}
+              name="Snaptip1"
+              component={Snaptip1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ChangeScheduleeditOnState"
-              component={ChangeScheduleeditOnState}
+              name="Snaptip2"
+              component={Snaptip2}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ReminderChanfeSchedule"
-              component={ReminderChanfeSchedule}
+              name="MyPlantsaddedReminder1"
+              component={MyPlantsaddedReminder1}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ChangeScheduleeditState"
-              component={ChangeScheduleeditState}
+              name="MyPlantsaddedReminder"
+              component={MyPlantsaddedReminder}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="TaskWildmintInfo"
-              component={TaskWildmintInfo}
+              name="MyPlantsaddedReminder3"
+              component={MyPlantsaddedReminder3}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ReminderTaskAll"
-              component={ReminderTaskAll}
+              name="MyPlantsaddedReminder2"
+              component={MyPlantsaddedReminder2}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="ReminderTaskWater"
-              component={ReminderTaskWater}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ChangeScheduleedit1One"
-              component={ChangeScheduleedit1One}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ReminderTaskFertilizer"
-              component={ReminderTaskFertilizer}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ReminderChanfeSchedule1"
-              component={ReminderChanfeSchedule1}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="ExplorePlants"
-              component={ExplorePlants}
+              name="MyPlantsaddReminder"
+              component={MyPlantsaddReminder}
               options={{ headerShown: false }}
             />
           </Stack.Navigator>

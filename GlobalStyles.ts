@@ -6,6 +6,9 @@ export const FontFamily = {
   heading6Medium: "Inter-Medium",
   robotoBold: "Roboto-Bold",
   caption: "Roboto-Regular",
+  xSmallParagraphRegular: "Inter-Regular",
+  paragraphMedium: "Inter-Medium",
+  heading4Semibold: "Inter-SemiBold",
 };
 /* font sizes */
 export const FontSize = {
@@ -17,6 +20,8 @@ export const FontSize = {
   paragraphMedium_size: 18,
   heading4Medium_size: 24,
   heading3Semibold_size: 28,
+  smallParagraphMedium_size: 14,
+  paragraph2Medium_size: 16,
 };
 /* Colors */
 export const Color = {
@@ -24,8 +29,12 @@ export const Color = {
   primaryColors400: "#2bb66c",
   primary500: "#14ae5c",
   primaryColors600: "#129c52",
+  primaryColors700: "#108b49",
   neutralGray05: "#737373",
   neutralGray04: "#525252",
+  neutralGray03: "#404040",
+  neutralGray02: "#262626",
+  neutralGray01: "#171717",
   shadesBlack02: "#000",
   colorSeagreen: "#529c74",
   colorMediumaquamarine_100: "#89d6ad",
@@ -33,11 +42,11 @@ export const Color = {
   colorMediumaquamarine_400: "rgba(137, 214, 173, 0.08)",
   primaryColors30: "rgba(137, 214, 173, 0.3)",
   colorMediumaquamarine_300: "rgba(137, 214, 173, 0.12)",
-  neutralGray03: "#404040",
-  neutralGray02: "#262626",
+  colorMediumaquamarine_300_alt: "rgba(137, 214, 173, 0.4)",
   colorGray_100: "rgba(0, 0, 0, 0.25)",
   neutralGray06: "#a3a3a3",
   colorGainsboro: "#e5e5e5",
+  colorGainsboro_100: "#eae8e8",
   colorWhitesmoke: "#f5f5f5",
 };
 /* Gaps */
@@ -57,12 +66,20 @@ export const Gap = {
   gap_4xl: 145,
   gap_5xl: 203,
   gap_6xl: 221,
+  gap_base: 16,
+  gap_2xl_alt: 95,
+  gap_3xl_alt: 120,
+  gap_4xl_alt: 215,
+  gap_5xl_alt: 232,
 };
 /* Paddings */
 export const Padding = {
   p_5xl: 24,
   p_3xs: 10,
   p_9xs: 4,
+  p_base: 16,
+  p_lgi: 19,
+  p_xs: 12,
 };
 /* border radiuses */
 export const Border = {
@@ -78,4 +95,8 @@ export const Border = {
   br_smi: 13,
   br_xs: 12,
   br_11xs: 2,
+  br_8xs: 5,
+  br_5xs: 8,
+  br_lg: 18,
 };
+
