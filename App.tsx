@@ -16,6 +16,8 @@ import ReminderTaskAll from "./screens/ReminderTaskAll";
 import ReminderTaskWater from "./screens/ReminderTaskWater";
 import ChangeScheduleedit1One from "./screens/ChangeScheduleedit1One";
 import ReminderTaskFertilizer from "./screens/ReminderTaskFertilizer";
+import ReminderChanfeSchedule1 from "./screens/ReminderChanfeSchedule1";
+import ExplorePlants from "./screens/ExplorePlants";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -109,6 +111,16 @@ const App = () => {
             <Stack.Screen
               name="ReminderTaskFertilizer"
               component={ReminderTaskFertilizer}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ReminderChanfeSchedule1"
+              component={ReminderChanfeSchedule1}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ExplorePlants"
+              component={ExplorePlants}
               options={{ headerShown: false }}
             />
           </Stack.Navigator>

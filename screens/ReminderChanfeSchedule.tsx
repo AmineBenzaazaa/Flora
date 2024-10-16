@@ -99,7 +99,7 @@ const ReminderChanfeSchedule = () => {
 
 const styles = StyleSheet.create({
   navbarPosition: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   waterIn4Typo: {
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   waterFlexBox: {
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     left: 20,
     justifyContent: "center",
     alignItems: "center",
@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
   text: {
     top: 12,
     left: 100,
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     zIndex: 2,
     position: "absolute",
   },
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
   },
   water1: {
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   water2: {
     textAlign: "center",

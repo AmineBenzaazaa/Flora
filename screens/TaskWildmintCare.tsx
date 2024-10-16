@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     padding: Padding.p_3xs,
     height: 40,
     width: 40,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     top: 16,
     position: "absolute",
   },
@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
     height: 50,
   },
   contentPosition: {
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     left: 76,
     zIndex: 2,
     position: "absolute",
@@ -273,7 +273,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   waterFlexBox: {
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     left: 20,
     flexDirection: "row",
     justifyContent: "center",
@@ -317,11 +317,11 @@ const styles = StyleSheet.create({
   },
   backArrow: {
     left: 16,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   edit: {
     left: 304,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   container: {
     width: 216,
@@ -365,7 +365,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   tabs1: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   tabs: {
     marginLeft: -108,
@@ -436,7 +436,7 @@ const styles = StyleSheet.create({
   },
   content1: {
     top: 16,
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     left: 76,
   },
   icon: {
@@ -450,18 +450,18 @@ const styles = StyleSheet.create({
   },
   careGuideeasy1: {
     height: 140,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   careGuideeasyInner: {
     height: 122,
   },
   careGuideeasy3: {
     height: 122,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   careGuide1: {
     top: 639,
-    gap: Gap.gap_2xs,
+    gap: Gap.gap_3xs,
     position: "absolute",
   },
   container3: {
@@ -485,7 +485,7 @@ const styles = StyleSheet.create({
   },
   water2: {
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   water3: {
     fontSize: FontSize.paragraphMedium_size,

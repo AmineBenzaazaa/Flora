@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   imageheadingbody: {
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     alignItems: "center",
   },
   iconsadd24px: {
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     paddingTop: Padding.p_3xs,
     paddingRight: Padding.p_5xl,
     paddingBottom: Padding.p_3xs,
-    gap: Gap.gap_2xs,
+    gap: Gap.gap_3xs,
     flexDirection: "row",
     alignItems: "center",
   },
@@ -273,7 +273,7 @@ const styles = StyleSheet.create({
   container1: {
     top: 14,
     left: 16,
-    gap: Gap.gap_4xl,
+    gap: Gap.gap_5xl,
     zIndex: 1,
     flexDirection: "row",
     alignItems: "center",
@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
   navbar: {
     marginLeft: -180,
     top: 0,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     left: "50%",
     position: "absolute",
   },
@@ -328,7 +328,7 @@ const styles = StyleSheet.create({
     right: "22.22%",
     bottom: "14.29%",
     left: "22.22%",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     flexDirection: "row",
   },
   caption2: {

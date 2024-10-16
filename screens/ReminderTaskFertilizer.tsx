@@ -345,7 +345,7 @@ const styles = StyleSheet.create({
   tabs: {
     marginLeft: -161,
     top: 156,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     left: "50%",
     position: "absolute",
   },
@@ -393,7 +393,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   text: {
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
   },
   today: {
     color: Color.primaryColors600,
@@ -404,13 +404,13 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   timeSchedule: {
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     flexDirection: "row",
   },
   content: {
     top: 11,
     left: 109,
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
     position: "absolute",
   },
   taskCompletionChild: {
@@ -428,7 +428,7 @@ const styles = StyleSheet.create({
     top: 25,
     left: 256,
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   fertilizerIcon1: {
@@ -456,14 +456,14 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   container2: {
-    gap: Gap.gap_4xl,
+    gap: Gap.gap_5xl,
     flexDirection: "row",
     alignItems: "center",
     left: 16,
   },
   navbar: {
     top: 0,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   caption: {
     left: "11.94%",
@@ -514,7 +514,7 @@ const styles = StyleSheet.create({
     bottom: "14.29%",
     left: "22.22%",
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   caption2: {
     left: "6.39%",

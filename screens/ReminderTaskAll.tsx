@@ -468,7 +468,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   text: {
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
   },
   today1: {
     color: Color.primaryColors600,
@@ -479,12 +479,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   timeSchedule: {
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
   },
   content: {
     top: 11,
     left: 109,
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
     position: "absolute",
   },
   taskCompletionChild: {
@@ -502,7 +502,7 @@ const styles = StyleSheet.create({
   taskCompletion: {
     top: 25,
     left: 256,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     flexDirection: "row",
     position: "absolute",
   },
@@ -596,7 +596,7 @@ const styles = StyleSheet.create({
   tabs: {
     marginLeft: -161,
     top: 156,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     left: "50%",
     position: "absolute",
   },
@@ -615,14 +615,14 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   container2: {
-    gap: Gap.gap_4xl,
+    gap: Gap.gap_5xl,
     zIndex: 1,
     alignItems: "center",
     flexDirection: "row",
     left: 16,
   },
   navbar: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     top: 0,
     marginLeft: -180,
   },
@@ -674,7 +674,7 @@ const styles = StyleSheet.create({
     right: "22.22%",
     bottom: "14.29%",
     left: "22.22%",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     flexDirection: "row",
   },
   caption2: {

@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   waterPosition: {
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     position: "absolute",
   },
   iconLayout: {
@@ -385,13 +385,13 @@ const styles = StyleSheet.create({
   text: {
     top: 12,
     left: 100,
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     zIndex: 2,
     position: "absolute",
   },
   containerPlant: {
     top: 96,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     left: 16,
     position: "absolute",
   },
@@ -422,7 +422,7 @@ const styles = StyleSheet.create({
   },
   water1: {
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   water2: {
     textAlign: "center",
@@ -448,7 +448,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     left: 20,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
   },
   fertilizerIcon: {
     top: 13,
@@ -462,7 +462,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     left: 20,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
   },
   label: {
     color: Color.primary500,
@@ -526,7 +526,7 @@ const styles = StyleSheet.create({
   navbar: {
     left: 0,
     top: 0,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   darkFrame: {
@@ -549,7 +549,7 @@ const styles = StyleSheet.create({
     color: Color.shadesBlack02,
   },
   every7: {
-    color: Color.colorDarkslategray,
+    color: Color.neutralGray03,
   },
   every714Days: {
     fontFamily: FontFamily.paragraphy2Regular,
@@ -569,7 +569,7 @@ const styles = StyleSheet.create({
   },
   content3: {
     top: 86,
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
     zIndex: 1,
     left: 16,
     position: "absolute",
@@ -595,7 +595,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.shadesWhite01,
   },
   recomanded1: {
-    color: Color.colorDarkslategray,
+    color: Color.neutralGray03,
     fontSize: FontSize.xSmallParagraphRegular_size,
     textAlign: "center",
     fontFamily: FontFamily.paragraphy2Regular,
@@ -608,7 +608,7 @@ const styles = StyleSheet.create({
     color: Color.shadesBlack02,
   },
   recomanded: {
-    gap: Gap.gap_3xl,
+    gap: Gap.gap_4xl,
   },
   box1: {
     borderColor: Color.colorMediumaquamarine_100,
@@ -651,7 +651,7 @@ const styles = StyleSheet.create({
     left: 23,
     width: 282,
     justifyContent: "center",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   water7: {
     fontSize: FontSize.paragraphy2Regular_size,
@@ -660,7 +660,7 @@ const styles = StyleSheet.create({
     color: Color.shadesBlack02,
   },
   water5: {
-    gap: Gap.gap_2xs,
+    gap: Gap.gap_3xs,
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
@@ -693,7 +693,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   container4: {
-    gap: Gap.gap_2xl,
+    gap: Gap.gap_3xl,
   },
   activeBar: {
     backgroundColor: Color.primaryColors400,
@@ -710,7 +710,7 @@ const styles = StyleSheet.create({
   },
   barCircle: {
     backgroundColor: Color.primaryColors30,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     flex: 1,
   },
   text7: {
@@ -739,7 +739,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     zIndex: 1,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   ndProgressBar: {
     top: 228,
@@ -783,7 +783,7 @@ const styles = StyleSheet.create({
   pop: {
     bottom: 0,
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   changeScheduleeditOnState: {

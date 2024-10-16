@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Flora",
-    "slug": "Flora",
+    "name": "flora",
+    "slug": "flora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

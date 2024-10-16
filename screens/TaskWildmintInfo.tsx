@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   editLayout: {
     padding: Padding.p_3xs,
     top: 16,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     height: 40,
     width: 40,
   },
@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
   },
   edit: {
     left: 304,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   container: {
@@ -395,7 +395,7 @@ const styles = StyleSheet.create({
     shadowRadius: 17,
     elevation: 17,
     shadowOpacity: 1,
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     left: "50%",
     position: "absolute",
   },
@@ -447,7 +447,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.paragraphy2Regular,
   },
   demography1: {
-    gap: Gap.gap_3xs,
+    gap: Gap.gap_4xs,
   },
   menthaArvensisThe: {
     width: 328,
@@ -459,7 +459,7 @@ const styles = StyleSheet.create({
   },
   demography: {
     top: 296,
-    gap: 16,
+    gap: Gap.gap_sm,
   },
   bgcontainer: {
     top: 880,
@@ -478,11 +478,11 @@ const styles = StyleSheet.create({
   },
   object: {
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   temperature: {
     fontSize: FontSize.xSmallParagraphRegular_size,
-    color: Color.colorDarkslategray,
+    color: Color.neutralGray03,
     fontFamily: FontFamily.paragraphy2Regular,
     textAlign: "left",
     lineHeight: 20,
@@ -503,22 +503,22 @@ const styles = StyleSheet.create({
     zIndex: 2,
   },
   content1: {
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
   },
   content: {
     top: 10,
     left: 10,
-    gap: Gap.gap_3xs,
+    gap: Gap.gap_4xs,
     zIndex: 1,
     position: "absolute",
   },
   containervariant4: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   conditions1: {
     top: 907,
     width: 345,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     flexDirection: "row",
   },
   image1Icon: {
@@ -529,11 +529,11 @@ const styles = StyleSheet.create({
   mildMintimages: {
     top: 673,
     width: 344,
-    gap: Gap.gap_2xs,
+    gap: Gap.gap_3xs,
     flexDirection: "row",
   },
   backArrow: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     padding: Padding.p_3xs,
     top: 16,
     height: 40,

@@ -201,7 +201,7 @@ late winter months`}</Text>
 
 const styles = StyleSheet.create({
   navbarPosition: {
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
     position: "absolute",
   },
   water2Layout: {
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   waterPosition: {
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     position: "absolute",
   },
   waterContainerTypo: {
@@ -324,7 +324,7 @@ const styles = StyleSheet.create({
   text: {
     top: 12,
     left: 100,
-    gap: Gap.gap_5xs,
+    gap: Gap.gap_6xs,
     zIndex: 2,
     position: "absolute",
   },
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
   },
   popFlexBox: {
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   water2: {
     textAlign: "center",
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     left: 20,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
   },
   fertilizerIcon: {
     top: 13,
@@ -393,7 +393,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     left: 20,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
   },
   label: {
     color: Color.primary500,
@@ -481,7 +481,7 @@ const styles = StyleSheet.create({
     color: Color.shadesBlack02,
   },
   every7: {
-    color: Color.colorDarkslategray,
+    color: Color.neutralGray03,
   },
   every714Days: {
     fontFamily: FontFamily.paragraphy2Regular,
@@ -497,7 +497,7 @@ const styles = StyleSheet.create({
   },
   content3: {
     top: 86,
-    gap: Gap.gap_4xs,
+    gap: Gap.gap_5xs,
     zIndex: 1,
     left: 16,
     position: "absolute",
@@ -537,7 +537,7 @@ const styles = StyleSheet.create({
     fontWeight: "500",
   },
   water5: {
-    gap: Gap.gap_2xs,
+    gap: Gap.gap_3xs,
   },
   track: {
     right: 0,
@@ -568,7 +568,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   container4: {
-    gap: Gap.gap_2xl,
+    gap: Gap.gap_3xl,
   },
   editSchedule: {
     shadowOpacity: 1,
@@ -604,7 +604,7 @@ const styles = StyleSheet.create({
     bottom: 8,
     height: 523,
     flexDirection: "row",
-    gap: Gap.gap_xs,
+    gap: Gap.gap_2xs,
   },
   changeScheduleeditState: {
     flex: 1,

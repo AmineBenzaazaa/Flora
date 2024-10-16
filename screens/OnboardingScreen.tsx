@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
   dots: {
     marginLeft: -164,
     top: 716,
-    gap: Gap.gap_sm,
+    gap: Gap.gap_xs,
     left: "50%",
   },
   label: {
